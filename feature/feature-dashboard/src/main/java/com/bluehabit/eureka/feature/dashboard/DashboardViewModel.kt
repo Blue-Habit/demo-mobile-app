@@ -5,7 +5,7 @@
  * Proprietary and confidential
  */
 
-package com.bluehabit.eureka.feature.dashboard.home
+package com.bluehabit.eureka.feature.dashboard
 
 import app.trian.mvi.ui.viewModel.MviViewModel
 import com.bluehabit.eureka.data.authentication.domain.SignOutUseCase

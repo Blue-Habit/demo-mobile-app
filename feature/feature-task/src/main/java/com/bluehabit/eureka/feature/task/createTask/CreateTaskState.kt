@@ -5,7 +5,7 @@
  * Proprietary and confidential
  */
 
-package com.bluehabit.eureka.feature.dashboard.task.createTask
+package com.bluehabit.eureka.feature.task.createTask
 
 import android.os.Parcelable
 import app.trian.mvi.ui.extensions.Empty

@@ -5,7 +5,7 @@
  * Proprietary and confidential
  */
 
-package com.bluehabit.eureka.feature.dashboard.task.createTask
+package com.bluehabit.eureka.feature.task.createTask
 
 import app.trian.mvi.ui.viewModel.MviViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -13,7 +13,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class CreateTaskViewModel @Inject constructor(
-):MviViewModel<CreateTaskState,CreateTaskAction>(
+):MviViewModel<CreateTaskState, CreateTaskAction>(
     CreateTaskState()
 ) {
     override fun onAction(action: CreateTaskAction) {

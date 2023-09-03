@@ -5,14 +5,12 @@
  * Proprietary and confidential
  */
 
-package com.bluehabit.eureka.feature.dashboard.home
+package com.bluehabit.eureka.feature.dashboard
 
 import android.os.Parcelable
 import app.trian.mvi.ui.internal.contract.MviState
-import com.bluehabit.core.ui.routes.Routes
 import kotlinx.parcelize.Parcelize
 import kotlinx.parcelize.RawValue
-import java.math.BigDecimal
 import javax.annotation.concurrent.Immutable
 
 @Immutable

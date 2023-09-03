@@ -5,5 +5,9 @@
  * Proprietary and confidential
  */
 
-package com.bluehabit.eureka.feature.dashboard.task.createTask
+package com.bluehabit.eureka.feature.task.createTask
 
+
+sealed interface CreateTaskEffect {
+    object Nothing : CreateTaskEffect
+}

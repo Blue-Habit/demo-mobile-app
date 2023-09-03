@@ -5,9 +5,9 @@
  * Proprietary and confidential
  */
 
-package com.bluehabit.eureka.feature.dashboard.home
+package com.bluehabit.eureka.feature.task.createTask
 
-sealed interface DashboardEffect {
-    object Nothing: DashboardEffect
-    object CloseApp: DashboardEffect
+
+sealed interface CreateTaskAction {
+    object CheckSession : CreateTaskAction
 }

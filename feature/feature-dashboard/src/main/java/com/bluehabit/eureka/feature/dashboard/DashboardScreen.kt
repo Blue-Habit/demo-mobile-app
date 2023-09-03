@@ -5,7 +5,7 @@
  * Proprietary and confidential
  */
 
-package com.bluehabit.eureka.feature.dashboard.home
+package com.bluehabit.eureka.feature.dashboard
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
